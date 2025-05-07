@@ -3,7 +3,7 @@ import {
   Database, 
   Users, 
   ChartBar, 
-  HandShake 
+  Handshake 
 } from "lucide-react";
 
 const Metrics = () => {
@@ -46,7 +46,7 @@ const Metrics = () => {
           
           <div className="flex flex-col items-center text-center">
             <div className="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mb-4">
-              <HandShake size={28} className="text-cloud-400" />
+              <Handshake size={28} className="text-cloud-400" />
             </div>
             <h3 className="text-3xl md:text-4xl font-bold">10+</h3>
             <p className="text-sm md:text-base mt-2 opacity-80">Years Experience</p>
