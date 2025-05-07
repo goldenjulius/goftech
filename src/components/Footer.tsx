@@ -1,5 +1,6 @@
 
 import { Cloud } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -21,10 +22,11 @@ const Footer = () => {
           <div>
             <h5 className="text-lg font-semibold mb-6">Quick Links</h5>
             <ul className="space-y-3">
-              <li><a href="#home" className="text-gray-300 hover:text-cloud-400 transition-colors">Home</a></li>
-              <li><a href="#services" className="text-gray-300 hover:text-cloud-400 transition-colors">Services</a></li>
-              <li><a href="#about" className="text-gray-300 hover:text-cloud-400 transition-colors">About Us</a></li>
-              <li><a href="#contact" className="text-gray-300 hover:text-cloud-400 transition-colors">Contact</a></li>
+              <li><a href="/#home" className="text-gray-300 hover:text-cloud-400 transition-colors">Home</a></li>
+              <li><a href="/#services" className="text-gray-300 hover:text-cloud-400 transition-colors">Services</a></li>
+              <li><a href="/#about" className="text-gray-300 hover:text-cloud-400 transition-colors">About Us</a></li>
+              <li><Link to="/careers" className="text-gray-300 hover:text-cloud-400 transition-colors">Careers</Link></li>
+              <li><a href="/#contact" className="text-gray-300 hover:text-cloud-400 transition-colors">Contact</a></li>
             </ul>
           </div>
           
