@@ -26,6 +26,9 @@ const About = () => {
             With years of expertise in cloud technologies and DevOps practices, we deliver reliable solutions 
             that help businesses operate more efficiently and securely in the cloud.
           </p>
+          <p className="text-lg font-medium text-goftech-600 mt-4">
+            Based in Nigeria, serving clients globally
+          </p>
         </div>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
@@ -59,9 +62,15 @@ const About = () => {
               </p>
               
               <h3 className="text-2xl font-bold mb-4">Our Vision</h3>
-              <p className="text-gray-600">
-                To be the leading provider of cloud and DevOps services, recognized for our technical expertise, 
+              <p className="text-gray-600 mb-6">
+                To be the leading provider of cloud and DevOps services in Nigeria and across Africa, recognized for our technical expertise, 
                 client-focused approach, and contribution to digital transformation across industries.
+              </p>
+              
+              <h3 className="text-2xl font-bold mb-4">Our Location</h3>
+              <p className="text-gray-600">
+                Headquartered in Lagos, Nigeria with satellite offices in Abuja and Port Harcourt, 
+                enabling us to serve clients throughout Nigeria and across the African continent.
               </p>
             </div>
           </div>
