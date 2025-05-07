@@ -1,5 +1,4 @@
 
-import { Button } from "@/components/ui/button";
 import { Cloud, Server, Database } from "lucide-react";
 
 const Hero = () => {
@@ -16,14 +15,6 @@ const Hero = () => {
               Empowering businesses with scalable cloud infrastructure and 
               streamlined DevOps practices for maximum efficiency and growth.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button className="bg-cloud-400 hover:bg-cloud-500 text-goftech-600 font-medium text-lg py-6 px-8">
-                Get Started
-              </Button>
-              <Button variant="outline" className="border-white text-white hover:bg-white/10 font-medium text-lg py-6 px-8">
-                Learn More
-              </Button>
-            </div>
           </div>
           <div className="relative hidden lg:block">
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-72 h-72 bg-cloud-400/20 rounded-full filter blur-3xl animate-pulse-glow"></div>

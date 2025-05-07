@@ -1,6 +1,5 @@
 
 import { useState } from 'react';
-import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { Link } from 'react-router-dom';
 
@@ -38,12 +37,6 @@ const Header = () => {
             Contact
           </a>
         </nav>
-
-        <div className="hidden md:block">
-          <Button className="bg-gradient-blue hover:opacity-90 transition-opacity">
-            Get Started
-          </Button>
-        </div>
 
         {/* Mobile Menu Button */}
         <button 
@@ -94,9 +87,6 @@ const Header = () => {
             >
               Contact
             </a>
-            <Button className="bg-gradient-blue hover:opacity-90 transition-opacity w-full">
-              Get Started
-            </Button>
           </div>
         </div>
       )}
